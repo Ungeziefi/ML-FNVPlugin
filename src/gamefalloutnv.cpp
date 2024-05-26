@@ -279,9 +279,11 @@ QStringList GameFalloutNV::iniFiles() const
 
 QStringList GameFalloutNV::DLCPlugins() const
 {
-  return {"DeadMoney.esm",    "HonestHearts.esm",      "OldWorldBlues.esm",
-          "LonesomeRoad.esm", "GunRunnersArsenal.esm", "CaravanPack.esm",
-          "ClassicPack.esm",  "MercenaryPack.esm",     "TribalPack.esm"};
+  return {
+          "DeadMoney.esm",     "HonestHearts.esm", "OldWorldBlues.esm",
+          "LonesomeRoad.esm",  "GunRunnersArsenal.esm", "ClassicPack.esm",
+          "MercenaryPack.esm", "TribalPack.esm", "CaravanPack.esm"
+  };
 }
 
 int GameFalloutNV::nexusModOrganizerID() const

@@ -20,7 +20,7 @@ protected:
                               "MCM",        "distantland",   "mits",
                               "dllplugins", "CalienteTools", "shadersfx",
                               "config",     "KEYWORDS",      "BaseObjectSwapper",
-                              "Root"};
+                              "Root",       "RaceMenuPresets" };
     return result;
   }
   virtual const FileNameSet& possibleFileExtensions() const override
