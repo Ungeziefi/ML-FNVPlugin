@@ -19,8 +19,7 @@ protected:
                               "distantlod", "asi",           "Tools",
                               "MCM",        "distantland",   "mits",
                               "dllplugins", "CalienteTools", "shadersfx",
-                              "config",     "KEYWORDS",      "BaseObjectSwapper",
-                              "Root",       "RaceMenuPresets" };
+                              "config",     "KEYWORDS",      "BaseObjectSwapper", "RaceMenuPresets"};
     return result;
   }
   virtual const FileNameSet& possibleFileExtensions() const override
